@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Word Counter
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## User Story
 
-## Available Scripts
+> As a user I want to be able to count the number of words in a given snippet of text.
 
-In the project directory, you can run:
+## Acceptance Criteria
 
-### `npm start`
+> Must contain a title of "Word Counter"
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+> Must contain a sub-title of "Paste or type your text here"
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+> Must contain a textarea where users can type text and the word count should update dynamically based on the number of words in the textarea
 
-### `npm test`
+> User must be able to copy and paste text and the word count should update dynamically based on the number of words in the textarea
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+> Must display the result as follows `Word count: 100`
 
-### `npm run build`
+> Must display the result as follows on initial load as follows `Word count: 0`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Design Guide
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![design guide](./design.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting Started
 
-### `npm run eject`
+1. > Navigate to your `coding_bootcamp` workspace:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+cd ~/coding_bootcamp
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. > Create a react project using the `create-react-app` script and use your own app name:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+npx create-react-app your-app-name
+cd your-react-app
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. > Create a repository in [GitHub](https://github.com/new) and enter the "Repository name" as the same name as your react app.
 
-## Learn More
+4. > In the terminal within your react app enter the commands provided by GitHub. The first command points your local repository to the remote GitHub, the second command sets your branch as `main` and the last command pushes all your local changes to the remote repository
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+git remote add origin git@github.com:YOUR_GITHUB_USERNAME/your-app-name.git
+git branch -M main
+git push -u origin main
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+5. > Once you refresh your GitHub page on the web browser you will see all your local files in GitHub.
 
-### Code Splitting
+6. > You can now proceed to work locally and add commit and push code regularly during development
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Resources
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- CSS framework: [Bootstrap 5](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+- Colour palette: [coolors](https://coolors.co/)
+- Icons: [font-awesome icons](https://fontawesome.com/icons) | [CDN](https://cdnjs.com/libraries/font-awesome)
+- [React docs](https://beta.reactjs.org/)
